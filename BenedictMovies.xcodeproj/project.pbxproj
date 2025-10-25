@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0C2DB8F32EAA9AF0001D7F88 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0C2DB8F22EAA9AF0001D7F88 /* README.md */; };
+		0C2DB9012EAAA1FB001D7F88 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 0C2DB9002EAAA1FB001D7F88 /* Kingfisher */; };
+		0C2DB91E2EAD5B5C001D7F88 /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C2DB91D2EAD5B5C001D7F88 /* Secrets.plist */; };
+		0C2DB9202EAD6398001D7F88 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0C2DB91F2EAD6398001D7F88 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		0C2DB8AF2EAA95FE001D7F88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,9 @@
 		0C2DB8982EAA95FB001D7F88 /* BenedictMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BenedictMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2DB8AE2EAA95FE001D7F88 /* BenedictMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenedictMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2DB8B82EAA95FE001D7F88 /* BenedictMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BenedictMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2DB8F22EAA9AF0001D7F88 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0C2DB91D2EAD5B5C001D7F88 /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		0C2DB91F2EAD6398001D7F88 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -53,11 +63,6 @@
 			path = BenedictMoviesTests;
 			sourceTree = "<group>";
 		};
-		0C2DB8BB2EAA95FE001D7F88 /* BenedictMoviesUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BenedictMoviesUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2DB9012EAAA1FB001D7F88 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,10 +94,12 @@
 		0C2DB88F2EAA95FB001D7F88 = {
 			isa = PBXGroup;
 			children = (
+				0C2DB8F22EAA9AF0001D7F88 /* README.md */,
 				0C2DB89A2EAA95FB001D7F88 /* BenedictMovies */,
 				0C2DB8B12EAA95FE001D7F88 /* BenedictMoviesTests */,
-				0C2DB8BB2EAA95FE001D7F88 /* BenedictMoviesUITests */,
 				0C2DB8992EAA95FB001D7F88 /* Products */,
+				0C2DB91D2EAD5B5C001D7F88 /* Secrets.plist */,
+				0C2DB91F2EAD6398001D7F88 /* .gitignore */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +133,7 @@
 			);
 			name = BenedictMovies;
 			packageProductDependencies = (
+				0C2DB9002EAAA1FB001D7F88 /* Kingfisher */,
 			);
 			productName = BenedictMovies;
 			productReference = 0C2DB8982EAA95FB001D7F88 /* BenedictMovies.app */;
@@ -166,9 +175,6 @@
 			dependencies = (
 				0C2DB8BA2EAA95FE001D7F88 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0C2DB8BB2EAA95FE001D7F88 /* BenedictMoviesUITests */,
-			);
 			name = BenedictMoviesUITests;
 			packageProductDependencies = (
 			);
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 0C2DB88F2EAA95FB001D7F88;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0C2DB8F42EAA9B5D001D7F88 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0C2DB8992EAA95FB001D7F88 /* Products */;
 			projectDirPath = "";
@@ -225,6 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2DB9202EAD6398001D7F88 /* .gitignore in Resources */,
+				0C2DB91E2EAD5B5C001D7F88 /* Secrets.plist in Resources */,
+				0C2DB8F32EAA9AF0001D7F88 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +305,7 @@
 				INFOPLIST_FILE = BenedictMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +336,7 @@
 				INFOPLIST_FILE = BenedictMovies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,6 +595,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0C2DB8F42EAA9B5D001D7F88 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0C2DB9002EAAA1FB001D7F88 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0C2DB8F42EAA9B5D001D7F88 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0C2DB8902EAA95FB001D7F88 /* Project object */;
 }

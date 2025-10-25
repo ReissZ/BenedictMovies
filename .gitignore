@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
@@ -60,3 +61,37 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+=======
+// Xcode & Swift
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+// Swift Package Manager
+.build/
+Packages/
+
+// CocoaPods (if applicable)
+Pods/
+
+// Carthage (if applicable)
+Carthage/Build/
+
+// Fastlane (if applicable)
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+// Secrets (must never be committed)
+Secrets.plist
+
+// User-specific Xcode data
+*.xcuserdatad/
+
+// DS_Store
+.DS_Store
+>>>>>>> f9c8516 (BenedictMovies app initial commit)
